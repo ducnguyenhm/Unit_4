@@ -1,0 +1,109 @@
+/* styles.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4A90E2;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+h3 {
+  color: #e24a4a;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 2.5rem;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.cat-info {
+  display: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 15%;
+  background-color: #4A90E2;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #357ABD;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: #f1f1f1;
+  width: auto;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ban-list-title {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+
+img {
+  width: 40%;    
+  height: auto;       
+  display: block;     
+  margin: 0 auto;    
+  border-radius: 8px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.ban-list-title,
+.history-list-title {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.ban-list ul,
+.history-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.ban-list ul li,
+.history-list ul li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.ban-list ul li:hover,
+.history-list ul li:hover {
+  background-color: #ececec;
+}
