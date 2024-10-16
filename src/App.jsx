@@ -5,12 +5,12 @@ function App() {
   const [banList, setBanList] = useState([]); 
   const [isLoading, setIsLoading] = useState(false); 
   const [history, setHistory] = useState([]);
-
+  const API_CAT = import.meta.env.VITE_API_KEY;
   const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
-
+  
   const headers = new Headers({
     "Content-Type": "application/json",
-    "x-api-key": "live_llATQKNUEMFL9xylrS712Py9x40NTjl5hLjz8I7h476TsBaouaajgqvBqwtTaomr"
+    "x-api-key": API_CAT
   });
   
   var requestOptions = {
